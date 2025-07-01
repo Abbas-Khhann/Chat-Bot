@@ -1,5 +1,5 @@
 
-langchain==0.3.26
-python-dotenv==1.0.1
-langchain-groq==0.3.2
-streamlit @ file:///croot/streamlit_1724335162935/work
+streamlit
+langchain
+langchain_groq
+python-dotenv
