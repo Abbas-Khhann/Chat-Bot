@@ -9,7 +9,8 @@ import streamlit.components.v1 as components
 
 # Load environment variables
 load_dotenv()
-api_key = os.getenv("GROQ_API_KEY")
+api_key = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY"))
+
 
 # === Initialize personalities ===
 PERSONALITIES = {
